@@ -34,6 +34,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#Api gems
+gem 'active_model_serializers'
+
 ruby '2.2.2', :patchlevel => '95'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
